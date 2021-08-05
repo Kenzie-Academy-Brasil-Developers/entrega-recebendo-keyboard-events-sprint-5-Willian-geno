@@ -1,0 +1,19 @@
+body{
+    background-image: url(./img/cidade.jpg);
+    background-size: cover;
+    width: 100Vw;
+    height: 100vh;
+}
+#box { 
+    
+    position: absolute;
+    background-image: url(./img/carro.jpg);
+    background-size: contain;
+    height: 7vh;
+    width: 4vw;
+    left: 200px;
+    top: 200px;
+}
+.reversCar{
+    -webkit-transform: scaleX(-1);
+}
